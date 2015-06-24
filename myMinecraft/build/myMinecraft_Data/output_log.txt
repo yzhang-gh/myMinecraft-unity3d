@@ -1,0 +1,32 @@
+Initialize engine version: 4.6.0f3 (30840d631a27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 630M      (ID=0x1140)
+    Vendor:   NVIDIA
+    VRAM:     971 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.103 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\System.Core.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.GUI.Label (Rect position, System.String text) [0x00000] in <filename unknown>:0 
+  at OnGui.showBlock (Int32 id) [0x00000] in <filename unknown>:0 
+  at Player.KeyEvent () [0x00000] in <filename unknown>:0 
+  at Player.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Platform assembly: F:\UnityWorkspace\myMinecraft\build\myMinecraft_Data\Managed\Boo.Lang.dll (this message is harmless)
