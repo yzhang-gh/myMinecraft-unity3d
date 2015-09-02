@@ -5,7 +5,8 @@ a minecraft-like game
 * First of all, click to lock cursor.
 * Left click to destory, right click to place.
 * Press `1` to use stone, press `2` to use dirt.
-* press `esc` to release cursor
+* Press `esc` to release cursor
+* Infinite terrain
 
 ## Directory structure
 ```
